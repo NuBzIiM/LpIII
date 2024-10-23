@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_loja/customs/custom_textformfield.dart';
 
 class UserAddPage extends StatelessWidget {
   const UserAddPage({super.key});
@@ -16,27 +17,18 @@ class UserAddPage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 45, vertical: 20),
         child: Column(
           children: [
-            TextFormField(
-              decoration: const InputDecoration(
-                label: Text('Nome do Usuário'),
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(width: 1),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(width: 1),
-                ),
-              ),
+            CustomTextFormField(
+              text: const Text('Nome do Usuário'),
             ),
-            const SizedBox(
-              height: 15,
+            CustomTextFormField(
+              text: const Text('Email'),
             ),
-            TextFormField(
-              decoration: const InputDecoration(
-                label: Text('Email'),
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(width: 1),
-                ),
-              ),
+            CustomTextFormField(
+              text: const Text('Telefone'),
+            ),
+            CustomTextFormField(
+              text: const Text('Senha'),
+              isPassword: true,
             ),
             const SizedBox(
               height: 25,
