@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "952529220544",
+    "project_id": "projeto-loja-4a944",
+    "storage_bucket": "projeto-loja-4a944.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952529220544:android:d90ce112aaba1ac19fce25",
+        "android_client_info": {
+          "package_name": "com.example.projeto_loja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcpxQygnej_kQxTpbxVcIgyMV13nSE3tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
